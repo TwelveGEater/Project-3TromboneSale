@@ -1,0 +1,320 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.menu {
+    position: fixed;
+    min-height: 75px;
+    padding-top: 30px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+    opacity: 1;
+    background-color: #eee;
+    top: 0px;
+
+}
+
+.menulist { 
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: 20px;
+    list-style: none;
+    font-weight: bold; 
+    padding-left: 0px;
+}
+
+@media (max-width: 650px) {
+.menulist {
+    
+    flex-direction: column;
+}
+}
+
+.list1 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.list2 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.list3 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu a {
+    
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu a:hover {
+    border-radius: 20px 5px;
+    background-color: #eee;
+}
+
+.trombon {
+    display: flex;
+    max-width: 300px;
+}
+
+.menutheme {
+    max-width: 100%;
+    position: relative; 
+    align-items: flex-end;
+    float: right;
+    display: block;
+    box-sizing: border-box;
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: black;    
+}
+
+.logo {
+    width: 60vw;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.maintitle {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.title {
+    padding: 7px 60px 7px 5px;
+    text-align: start;
+}
+
+.button {
+    display: block;
+    margin: 30px auto;
+    padding: 5px 30px;
+    font-size: 20px;
+    background-color: orange;
+    border-color: black;
+    border-width: 1px;
+    transition: background-color 0.3s ease-out;
+    
+
+}
+.button:hover {
+    
+    background-color: yellow;
+
+}
+
+
+.emailform {
+    text-align: center;
+    padding-bottom: 70px;
+    
+}
+
+.firstblock {
+    margin: 90px auto;
+    text-align: center;
+    position: flex;
+    margin-top: 29px; 
+}
+
+.firstp {
+    display: inline-block;
+    position: relative;
+    top: 27px;
+}
+
+.fire {
+    width: 50px;
+    height: 60px;
+    position: inline-flex;
+}
+
+.premium {
+    flex-direction: column;
+    box-sizing: border-box;
+    display: inline-flex;
+    bottom: 40px;
+    text-align: center;
+    margin-top: 50px; 
+    padding-left: 30px;
+}
+
+
+.premiumh {
+    flex-direction: column;
+    display: inline-block;
+    width: auto;
+    margin: 0px;
+    text-align: left;
+    padding-left: 45px;
+}
+
+.premiump {
+    flex-direction: column;
+    display: inline-block;
+    padding-left: 43px; 
+    margin: 0px;
+    max-width: 800px;
+    text-align: left
+}
+
+.premiumtr {
+    display: inline-block;
+    box-sizing: border-box;
+    justify-content: center;
+    position: relative;
+    right: 40px;
+}
+
+.carimg {
+    display: inline-block;
+    position: relative;
+    top: 45px;
+    left: 20px;
+}
+
+.car {
+    width: 80px;
+    height: 60px;
+    position: inline-flex;
+    text-align: center;
+} 
+
+.secondblock {
+    margin: 90px auto;
+    text-align: center;
+}
+
+
+.fast {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 40px;
+}
+
+.batteryimg {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.battery {
+    width: 70px;
+    height: 80px;
+    position: inline-flex;
+}
+
+.video {
+    margin: 0px auto;
+    max-width: 650px;
+    width: 100%;
+}
+
+.tenortrombone {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px 0px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    max-width: 300px;
+    margin: 100px 30px;
+    position: relative;
+    left: 120px;
+}
+
+.tenortitle {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+@media (max-width: 1100px) {
+    .tenortrombone {
+        flex-direction: column;
+        display: block;
+    }
+}
+ol {
+    list-style: none;
+}
+
+.tenorbutton {
+    
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+}
+
+button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+.down {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+footer ul li {
+    padding: 0 10px;
+    
+}
+footer ul a {
+    color: #000;
+    text-decoration: none;
+}
+
+span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+}
+
+#home {
+    max-width: 1px;
+    position: relative;
+    bottom: 100px;
+}
